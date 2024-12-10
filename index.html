@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Doctor is here</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://nutritionsource.hsph.harvard.edu/wp-content/uploads/2024/11/AdobeStock_321830101-1024x683.jpeg">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="main">
+    <!-- space -->
+    <header class="header1">
+      <nav>
+          <div class="left">
+            <img src="https://nutritionsource.hsph.harvard.edu/wp-content/uploads/2024/11/AdobeStock_321830101-1024x683.jpeg" alt="" class="logo">
+            <h2 class="title-logo">We're here for you</h2>
+          </div>
+          <div class="right">
+            <div class="l-1">
+              <i class="fa-solid fa-location-dot" style="color: #00adad; font-size: 15px;"></i>
+              <h2>0123,Cairo,Cairo,EG</h2>
+            </div>
+            <div class="l-2">
+              <i class="fa-solid fa-phone" style="color: #00adad; font-size: 15px;"></i>
+              <h2>( +20 ) 1234567890</h2>
+            </div>
+            <div class="l-3">
+              <a href="">Book Now</a>
+            </div>
+          </div>
+      </nav>
+      </header>
+    <!-- space -->
+    <header class="header2">
+      <div class="left">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Doctors</a></li>
+          <li><a href="#">Department</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <input type="text" id="search-box" placeholder="Search...">
+      </div>
+      </header>
+    <!-- space -->
+    <div class="home-container">
+      <div class="home">
+        <div class="left">
+          <span><i class="fa-solid fa-heart-pulse" style="color: #00aeae; font-size: 20px;"></i>Live Your Life</span>
+          <h2>We Care About <br> your health</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident commodi eveniet asperiores similique officia, praesentium placeat esse aperiam deserurt est.</p>
+          <a href="">Contact us</a>
+        </div>
+        <div class="right">
+          <img src="https://scontent.fcai19-12.fna.fbcdn.net/v/t39.30808-6/404525914_1062772811361752_7732200547744652597_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Bn4KYnRh7CIQ7kNvgHOP2o5&_nc_zt=23&_nc_ht=scontent.fcai19-12.fna&_nc_gid=A83MgQPf0DGHWqX23Cv94Cz&oh=00_AYD7ErFYG9JugA4JkiyuTaBbJPgsy9uxQizLadMya0BJ2w&oe=675BFE9B" alt="">
+        </div>
+      </div>
+      </div>
+    <!-- space -->
+    <div class="bar">
+      <div class="b-1">
+        <h2>+5120</h2>
+        <h4>Happy Patients</h4>
+      </div>
+      <div class="b-1">
+        <h2>+26</h2>
+        <h4>Happy Patients</h4>
+      </div>
+      <div class="b-1">
+        <h2>+53</h2>
+        <h4>Happy Patients</h4>
+      </div>
+      <div class="b-1">
+        <h2>+10</h2>
+        <h4>Happy Patients</h4>
+      </div>
+      
+      </div>
+    <!-- space -->
+    <div class="bar2">
+      <div class="top">
+        <h2>Our Best Services For Your Solution</h2>
+        <h3>Vitae aliquem vestibulum elit adipiscing massa diom in stignissim Risus tellus libero slementum aliquam etiam Lectus adipiscing ust auctor mi quisque nunc non viverra est.</h3>
+      </div>
+      <div class="bottom">
+        <div class="bo-1">
+          <i class="fa-solid fa-house-chimney-medical"></i>
+          <h2>General practitioners</h2>
+          <h4>General practitioners General practitioners General practitioners</h4>
+        </div>
+        <div class="bo-1">
+          <i class="fa-solid fa-person-dress"></i>
+          <h2>General practitioners</h2>
+          <h4>General practitioners General practitioners General practitioners</h4>
+        </div>
+        <div class="bo-1">
+          <i class="fa-solid fa-person-breastfeeding"></i>
+          <h2>General practitioners</h2>
+          <h4>General practitioners General practitioners General practitioners</h4>
+        </div>
+        <div class="bo-1">
+          <i class="fa-solid fa-prescription-bottle-medical"></i>
+          <h2>General practitioners</h2>
+          <h4>General practitioners General practitioners General practitioners</h4>
+        </div>
+      </div>
+      </div>
+    <!-- space -->
+    <div class="doc">
+      <div class="booking-form-container">
+        <h2>Book Appointment Or Call: <span class="phone-number">( +20 ) 1234567890</span></h2>
+        <form class="booking-form" id="bookingForm">
+          <div class="form-row">
+            <select name="department" id="department" required>
+              <option value="" disabled selected>Select Department</option>
+              <option value="cardiology">Cardiology</option>
+              <option value="dentistry">Dentistry</option>
+              <option value="neurology">Neurology</option>
+            </select>
+            <select name="doctor" id="doctor" required>
+              <option value="" disabled selected>Select Doctor</option>
+              <option value="dr-smith">Dr. Smith</option>
+              <option value="dr-jones">Dr. Jones</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <input type="text" name="fullName" id="fullName" placeholder="Full Name" required>
+            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" required>
+          </div>
+          <div class="form-row">
+            <input type="date" name="date" id="date" required>
+            <input type="time" name="time" id="time" required>
+          </div>
+          <button type="submit">Book an Appointment</button>
+        </form>
+        </div>
+      </div>
+    <!-- space -->
+    <div class="cust">
+      <section class="testimonial-section">
+        <div class="testimonial-container">
+
+          <div class="testimonial-images">
+            <div class="vb-1">
+              <div class="custa-1" id="cs-1"></div>
+              <div class="custa-2"></div>
+            </div>
+            <div class="vb-2">
+              <div class="custa-3" id="cs-1"></div>
+              <div class="custa-4"></div>
+              <div class="custa-7"></div>
+            </div>
+            <div class="vb-3">
+              <div class="custa-5"></div>
+              <div class="custa-6"></div>
+            </div>
+          </div>
+          <div class="testimonial-content">
+            <p class="quote">
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit. The more content you provide about you. Lorem, quos saepe suscipit, nemo dolore sapiente!”
+            </p>
+            <h4 class="name">James Rodrigo</h4>
+            <p class="role">Customer</p>
+
+            <div class="testimonial-navigation">
+              <span class="nav-dot active"></span>
+              <span class="nav-dot"></span>
+              <span class="nav-dot"></span>
+            </div>
+          </div>
+        
+          </div>
+      </section>
+      </div>
+    <!-- space -->
+    <div class="company">
+      <div class="comp-1">
+        <h2 class="vbg">Lifetrace</h2>
+      </div>
+      <div class="comp-1">
+        <h2>Medcare</h2>
+      </div>
+      <div class="comp-1">
+        <h2>BETAEL</h2>
+      </div>
+      <div class="comp-1">
+        <h2>Healer</h2>
+      </div>
+      <div class="comp-1">
+        <h2>SOVEN</h2>
+      </div>
+      </div>
+    <!-- space -->
+    <div class="footer">
+      <div class="top">
+        <div class="left">
+          <h2 class="our">OUR NEWSLETTER</h2>
+          <h2>Subscribe Us To Get More Updates</h2>
+        </div>
+        <div class="right">
+          <div class="sup">
+            <input type="email" name="" id="" placeholder="Your Email Address">
+            <a href="" class="subscribe">
+              Subscribe
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bottom"></div>
+      </div>
+      <!-- space -->
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
